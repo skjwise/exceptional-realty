@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- The head section contains info for search 
-            engines and the browser, not seen by users. -->
         <meta charset="UTF-8">
         <title> Exceptional Realty Group - Luxury Homes - About </title>
     </head>
     <body>
-        <!-- The body is the entire viewable area of the web page.
-        Eg we can see text, links, images and media. -->
+        <header>
+            <h1> Exceptional </h1>
+            <h2> Realty Group </h2>
 
-        <h1> Exceptional </h1>
-        <h2> Realty Group </h2>
+            <nav> 
+                <a href="index.html">About</a>
+                <a href="new-properties.html">New Properties</a>
+                <a href="real-estate-listings.html">Listings</a>
+                <a href="market-report.html">Market Report</a>
+                <a href="contact.html">Contact</a>
+                <a href="http://hud.gov" target="_blank">H.U.D.</a>
+            </nav>
+        </header>
 
-        <!-- links -->
-        <a href="index.html">About</a>
-        <a href="new-properties.html">New Properties</a>
-        <a href="real-estate-listings.html">Listings</a>
-        <a href="market-report.html">Market Report</a>
-        <a href="contact.html">Contact</a>
-        <a href="http://hud.gov" target="_blank">H.U.D.</a>
-        
-        <img src="images/intro-pic.jpg" alt="A beautiful living room"
-        title="Welcome to Exceptional Realty Group"> 
+        <section id="featured-property"> 
+            <figure>
+                <img src="images/intro-pic.jpg" alt="A beautiful living room"
+                title="Welcome to Exceptional Realty Group"> 
+                <figcaption> 345 Carl Street, Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards </figcaption>
+            </figure>
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nihil ad odio voluptatibus laudantium dolor nam harum non itaque incidunt vero repellendus facere praesentium, tenetur enim repellat distinctio cum! Velit?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nihil ad odio voluptatibus laudantium dolor nam harum non itaque incidunt vero repellendus facere praesentium, tenetur enim repellat distinctio cum! Velit?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ex nemo modi, iure aspernatur impedit est placeat quis possimus dignissimos perspiciatis assumenda harum molestiae dolor cum molestias saepe. Amet, minus?</p>
+        </section>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ex nemo modi, iure aspernatur impedit est placeat quis possimus dignissimos perspiciatis assumenda harum molestiae dolor cum molestias saepe. Amet, minus?</p>
+        <section id="promotional">
+            <figure>
+                <video controls>
+                    <source src="videos/promo-video.mp4" type="video/mp4">
+                
+                    Your browser does not support HTML5 video. 
+                    <a href="http://browsehappy.com" target="_blank">Please upgrade your browser.</a>
+                </video>
+            <figcaption> Exceptional Realty Group Promo Video. </figcaption>
+        </figure>
+        </section>
 
-        <!-- promo video -->
-        <video controls>
-            <source src="videos/promo-video.mp4" type="video/mp4">
-            
-            Your browser does not support HTML5 video. 
-            <a href="http://browsehappy.com" target="_blank">Please upgrade your browser.</a>
 
-        </video>
+        <footer>
+            &copy; 2020 Exceptional Realty. All Rights Reserved.
+        </footer>
 
     </body>
 </html>
